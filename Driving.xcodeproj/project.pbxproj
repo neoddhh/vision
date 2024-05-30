@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D11579EB2C0724C3008E164E /* Car.wav in Resources */ = {isa = PBXBuildFile; fileRef = D11579EA2C0724C3008E164E /* Car.wav */; };
+		D11856B42C041F530085CA3E /* RotationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11856B32C041F530085CA3E /* RotationComponent.swift */; };
+		D11FBEA82C08C01900C9BD77 /* GameGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11FBEA72C08C01900C9BD77 /* GameGuideView.swift */; };
+		D1598FEA2C0616B000971BD3 /* MoveComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1598FE92C0616B000971BD3 /* MoveComponent.swift */; };
+		D1598FEC2C0616BD00971BD3 /* MoveSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1598FEB2C0616BD00971BD3 /* MoveSystem.swift */; };
+		D1BF7EA42C006FD80085E839 /* HandGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BF7EA32C006FD80085E839 /* HandGestureRecognizer.swift */; };
+		D1BF7EA62C0070200085E839 /* DriveAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BF7EA52C0070200085E839 /* DriveAction.swift */; };
+		D1BF7EA82C0073920085E839 /* HandGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BF7EA72C0073920085E839 /* HandGestureRecognizerDelegate.swift */; };
+		D1BF7EAA2C008BFC0085E839 /* Speed.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BF7EA92C008BFC0085E839 /* Speed.swift */; };
+		D1BF7EAC2C008CC80085E839 /* Grade.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BF7EAB2C008CC80085E839 /* Grade.swift */; };
+		D1BF7EAE2C008F480085E839 /* GameStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BF7EAD2C008F480085E839 /* GameStatus.swift */; };
+		D1BF7EB02C008FF20085E839 /* InstrumentPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BF7EAF2C008FF20085E839 /* InstrumentPanel.swift */; };
+		D1D9866F2BFD736D00E3A7E2 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = D1D9866E2BFD736D00E3A7E2 /* RealityKitContent */; };
+		D1D986712BFD736D00E3A7E2 /* DrivingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D986702BFD736D00E3A7E2 /* DrivingApp.swift */; };
+		D1D986732BFD736D00E3A7E2 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D986722BFD736D00E3A7E2 /* AppView.swift */; };
+		D1D986752BFD736D00E3A7E2 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D986742BFD736D00E3A7E2 /* GameView.swift */; };
+		D1D986772BFD736E00E3A7E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D986762BFD736E00E3A7E2 /* Assets.xcassets */; };
+		D1D9867A2BFD736E00E3A7E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D986792BFD736E00E3A7E2 /* Preview Assets.xcassets */; };
+		D1D986852BFD736E00E3A7E2 /* DrivingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D986842BFD736E00E3A7E2 /* DrivingTests.swift */; };
+		D1D9868F2BFD74EC00E3A7E2 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D9868E2BFD74EC00E3A7E2 /* GameModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1D986812BFD736E00E3A7E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1D986612BFD736D00E3A7E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1D986682BFD736D00E3A7E2;
+			remoteInfo = Driving;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D11579EA2C0724C3008E164E /* Car.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Car.wav; sourceTree = "<group>"; };
+		D11856B32C041F530085CA3E /* RotationComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationComponent.swift; sourceTree = "<group>"; };
+		D11FBEA72C08C01900C9BD77 /* GameGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameGuideView.swift; sourceTree = "<group>"; };
+		D1598FE92C0616B000971BD3 /* MoveComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveComponent.swift; sourceTree = "<group>"; };
+		D1598FEB2C0616BD00971BD3 /* MoveSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveSystem.swift; sourceTree = "<group>"; };
+		D1BF7EA32C006FD80085E839 /* HandGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandGestureRecognizer.swift; sourceTree = "<group>"; };
+		D1BF7EA52C0070200085E839 /* DriveAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveAction.swift; sourceTree = "<group>"; };
+		D1BF7EA72C0073920085E839 /* HandGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandGestureRecognizerDelegate.swift; sourceTree = "<group>"; };
+		D1BF7EA92C008BFC0085E839 /* Speed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speed.swift; sourceTree = "<group>"; };
+		D1BF7EAB2C008CC80085E839 /* Grade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grade.swift; sourceTree = "<group>"; };
+		D1BF7EAD2C008F480085E839 /* GameStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStatus.swift; sourceTree = "<group>"; };
+		D1BF7EAF2C008FF20085E839 /* InstrumentPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentPanel.swift; sourceTree = "<group>"; };
+		D1D986692BFD736D00E3A7E2 /* Driving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Driving.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D9866D2BFD736D00E3A7E2 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		D1D986702BFD736D00E3A7E2 /* DrivingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingApp.swift; sourceTree = "<group>"; };
+		D1D986722BFD736D00E3A7E2 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		D1D986742BFD736D00E3A7E2 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		D1D986762BFD736E00E3A7E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1D986792BFD736E00E3A7E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D1D9867B2BFD736E00E3A7E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1D986802BFD736E00E3A7E2 /* DrivingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrivingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D986842BFD736E00E3A7E2 /* DrivingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingTests.swift; sourceTree = "<group>"; };
+		D1D9868E2BFD74EC00E3A7E2 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1D986662BFD736D00E3A7E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D9866F2BFD736D00E3A7E2 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D9867D2BFD736E00E3A7E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1206F0D2C0876F800E70413 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D11579EA2C0724C3008E164E /* Car.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D1598FED2C0616CA00971BD3 /* ECS */ = {
+			isa = PBXGroup;
+			children = (
+				D1598FEF2C061C1D00971BD3 /* Systems */,
+				D1598FEE2C061C0F00971BD3 /* Components */,
+			);
+			path = ECS;
+			sourceTree = "<group>";
+		};
+		D1598FEE2C061C0F00971BD3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D11856B32C041F530085CA3E /* RotationComponent.swift */,
+				D1598FE92C0616B000971BD3 /* MoveComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D1598FEF2C061C1D00971BD3 /* Systems */ = {
+			isa = PBXGroup;
+			children = (
+				D1598FEB2C0616BD00971BD3 /* MoveSystem.swift */,
+			);
+			path = Systems;
+			sourceTree = "<group>";
+		};
+		D1BF7EB12C008FF90085E839 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D1D986722BFD736D00E3A7E2 /* AppView.swift */,
+				D1D986742BFD736D00E3A7E2 /* GameView.swift */,
+				D1BF7EAF2C008FF20085E839 /* InstrumentPanel.swift */,
+				D11FBEA72C08C01900C9BD77 /* GameGuideView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D1BF7EB22C0090110085E839 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				D1D9868E2BFD74EC00E3A7E2 /* GameModel.swift */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
+		D1BF7EB32C0090250085E839 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				D1598FED2C0616CA00971BD3 /* ECS */,
+				D1BF7EA52C0070200085E839 /* DriveAction.swift */,
+				D1BF7EA92C008BFC0085E839 /* Speed.swift */,
+				D1BF7EAB2C008CC80085E839 /* Grade.swift */,
+				D1BF7EAD2C008F480085E839 /* GameStatus.swift */,
+				D1BF7EA72C0073920085E839 /* HandGestureRecognizerDelegate.swift */,
+				D1BF7EA32C006FD80085E839 /* HandGestureRecognizer.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		D1D986602BFD736D00E3A7E2 = {
+			isa = PBXGroup;
+			children = (
+				D1D9866B2BFD736D00E3A7E2 /* Driving */,
+				D1D9866C2BFD736D00E3A7E2 /* Packages */,
+				D1D986832BFD736E00E3A7E2 /* DrivingTests */,
+				D1D9866A2BFD736D00E3A7E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1D9866A2BFD736D00E3A7E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1D986692BFD736D00E3A7E2 /* Driving.app */,
+				D1D986802BFD736E00E3A7E2 /* DrivingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1D9866B2BFD736D00E3A7E2 /* Driving */ = {
+			isa = PBXGroup;
+			children = (
+				D1D986702BFD736D00E3A7E2 /* DrivingApp.swift */,
+				D1BF7EB32C0090250085E839 /* Objects */,
+				D1BF7EB22C0090110085E839 /* States */,
+				D1BF7EB12C008FF90085E839 /* Views */,
+				D1206F0D2C0876F800E70413 /* Resources */,
+				D1D986762BFD736E00E3A7E2 /* Assets.xcassets */,
+				D1D9867B2BFD736E00E3A7E2 /* Info.plist */,
+				D1D986782BFD736E00E3A7E2 /* Preview Content */,
+			);
+			path = Driving;
+			sourceTree = "<group>";
+		};
+		D1D9866C2BFD736D00E3A7E2 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				D1D9866D2BFD736D00E3A7E2 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		D1D986782BFD736E00E3A7E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D1D986792BFD736E00E3A7E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D1D986832BFD736E00E3A7E2 /* DrivingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1D986842BFD736E00E3A7E2 /* DrivingTests.swift */,
+			);
+			path = DrivingTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1D986682BFD736D00E3A7E2 /* Driving */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1D986882BFD736E00E3A7E2 /* Build configuration list for PBXNativeTarget "Driving" */;
+			buildPhases = (
+				D1D986652BFD736D00E3A7E2 /* Sources */,
+				D1D986662BFD736D00E3A7E2 /* Frameworks */,
+				D1D986672BFD736D00E3A7E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Driving;
+			packageProductDependencies = (
+				D1D9866E2BFD736D00E3A7E2 /* RealityKitContent */,
+			);
+			productName = Driving;
+			productReference = D1D986692BFD736D00E3A7E2 /* Driving.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1D9867F2BFD736E00E3A7E2 /* DrivingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1D9868B2BFD736E00E3A7E2 /* Build configuration list for PBXNativeTarget "DrivingTests" */;
+			buildPhases = (
+				D1D9867C2BFD736E00E3A7E2 /* Sources */,
+				D1D9867D2BFD736E00E3A7E2 /* Frameworks */,
+				D1D9867E2BFD736E00E3A7E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1D986822BFD736E00E3A7E2 /* PBXTargetDependency */,
+			);
+			name = DrivingTests;
+			productName = DrivingTests;
+			productReference = D1D986802BFD736E00E3A7E2 /* DrivingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1D986612BFD736D00E3A7E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D1D986682BFD736D00E3A7E2 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D1D9867F2BFD736E00E3A7E2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D1D986682BFD736D00E3A7E2;
+					};
+				};
+			};
+			buildConfigurationList = D1D986642BFD736D00E3A7E2 /* Build configuration list for PBXProject "Driving" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1D986602BFD736D00E3A7E2;
+			productRefGroup = D1D9866A2BFD736D00E3A7E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1D986682BFD736D00E3A7E2 /* Driving */,
+				D1D9867F2BFD736E00E3A7E2 /* DrivingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1D986672BFD736D00E3A7E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D11579EB2C0724C3008E164E /* Car.wav in Resources */,
+				D1D9867A2BFD736E00E3A7E2 /* Preview Assets.xcassets in Resources */,
+				D1D986772BFD736E00E3A7E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D9867E2BFD736E00E3A7E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1D986652BFD736D00E3A7E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BF7EA62C0070200085E839 /* DriveAction.swift in Sources */,
+				D1BF7EAA2C008BFC0085E839 /* Speed.swift in Sources */,
+				D1BF7EAC2C008CC80085E839 /* Grade.swift in Sources */,
+				D1BF7EA82C0073920085E839 /* HandGestureRecognizerDelegate.swift in Sources */,
+				D11856B42C041F530085CA3E /* RotationComponent.swift in Sources */,
+				D1D986732BFD736D00E3A7E2 /* AppView.swift in Sources */,
+				D1D9868F2BFD74EC00E3A7E2 /* GameModel.swift in Sources */,
+				D1598FEC2C0616BD00971BD3 /* MoveSystem.swift in Sources */,
+				D1BF7EA42C006FD80085E839 /* HandGestureRecognizer.swift in Sources */,
+				D1BF7EB02C008FF20085E839 /* InstrumentPanel.swift in Sources */,
+				D1598FEA2C0616B000971BD3 /* MoveComponent.swift in Sources */,
+				D1BF7EAE2C008F480085E839 /* GameStatus.swift in Sources */,
+				D1D986712BFD736D00E3A7E2 /* DrivingApp.swift in Sources */,
+				D11FBEA82C08C01900C9BD77 /* GameGuideView.swift in Sources */,
+				D1D986752BFD736D00E3A7E2 /* GameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D9867C2BFD736E00E3A7E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D986852BFD736E00E3A7E2 /* DrivingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1D986822BFD736E00E3A7E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1D986682BFD736D00E3A7E2 /* Driving */;
+			targetProxy = D1D986812BFD736E00E3A7E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D1D986862BFD736E00E3A7E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		D1D986872BFD736E00E3A7E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+		D1D986892BFD736E00E3A7E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Driving/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Y4G3442RX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.racing-games";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Driving;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		D1D9868A2BFD736E00E3A7E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Driving/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Y4G3442RX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.racing-games";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Driving;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		D1D9868C2BFD736E00E3A7E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y4G3442RX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naamfung.DrivingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Driving.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Driving";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		D1D9868D2BFD736E00E3A7E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y4G3442RX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naamfung.DrivingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Driving.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Driving";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1D986642BFD736D00E3A7E2 /* Build configuration list for PBXProject "Driving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D986862BFD736E00E3A7E2 /* Debug */,
+				D1D986872BFD736E00E3A7E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1D986882BFD736E00E3A7E2 /* Build configuration list for PBXNativeTarget "Driving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D986892BFD736E00E3A7E2 /* Debug */,
+				D1D9868A2BFD736E00E3A7E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1D9868B2BFD736E00E3A7E2 /* Build configuration list for PBXNativeTarget "DrivingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D9868C2BFD736E00E3A7E2 /* Debug */,
+				D1D9868D2BFD736E00E3A7E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D1D9866E2BFD736D00E3A7E2 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D1D986612BFD736D00E3A7E2 /* Project object */;
+}

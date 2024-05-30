@@ -1,0 +1,924 @@
+{
+  "0A9B4653-B11E-4D6A-850E-C6FCB621626C" : {
+    "objectMetadataList" : [
+      [
+        "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "1EFECFFE-446B-44E5-BD6A-4B3F10E38DAE" : {
+    "objectMetadataList" : [
+      [
+        "1EFECFFE-446B-44E5-BD6A-4B3F10E38DAE",
+        "Root",
+        "OriginalFalloutCar"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "1EFECFFE-446B-44E5-BD6A-4B3F10E38DAE",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "2A28FC8D-9931-4583-AE5A-A5F2334D674F" : {
+    "objectMetadataList" : [
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_31"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cylinder_3"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_6"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_35"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_24"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_37"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_19"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_22"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_5"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cylinder_2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_36"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_29"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_12"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_38"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cylinder_1"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_1"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_30"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cylinder_8"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_18"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_10"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_13"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_39"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_9"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_27"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_4"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_16"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_15"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_28"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cylinder_5"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cylinder_6"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cylinder_9"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_34"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_23"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_40"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_20"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cylinder_7"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_33"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_17"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_8"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cylinder_4"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_11"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_14"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_3"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cylinder"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_7"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_25"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_26"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_21"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+        "Root",
+        "Fence",
+        "Cube_32"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "5A5E891A-E8C8-4BED-B1E9-04710230D226" : {
+    "objectMetadataList" : [
+      [
+        "5A5E891A-E8C8-4BED-B1E9-04710230D226",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5A5E891A-E8C8-4BED-B1E9-04710230D226",
+        "Root",
+        "FlatSteeringWheel"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5A5E891A-E8C8-4BED-B1E9-04710230D226",
+        "Root",
+        "FlatSteeringWheel",
+        "OriginalSteeringWheel"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5A5E891A-E8C8-4BED-B1E9-04710230D226",
+        "Root",
+        "FlatSteeringWheel",
+        "OriginalSteeringWheel",
+        "C095_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "7ACCC3AC-997D-41BA-8299-861B174745A3" : {
+    "objectMetadataList" : [
+      [
+        "7ACCC3AC-997D-41BA-8299-861B174745A3",
+        "Root",
+        "chefenzu",
+        "C095",
+        "_______035"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7ACCC3AC-997D-41BA-8299-861B174745A3",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7ACCC3AC-997D-41BA-8299-861B174745A3",
+        "Root",
+        "chefenzu",
+        "C095",
+        "_______001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7ACCC3AC-997D-41BA-8299-861B174745A3",
+        "Root",
+        "chefenzu",
+        "C095"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7ACCC3AC-997D-41BA-8299-861B174745A3",
+        "Root",
+        "chefenzu",
+        "C095",
+        "_______038"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7ACCC3AC-997D-41BA-8299-861B174745A3",
+        "Root",
+        "C095",
+        "_______425"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "7F1E8F23-F61F-4C51-A793-AB45B7C5325A" : {
+    "objectMetadataList" : [
+      [
+        "7F1E8F23-F61F-4C51-A793-AB45B7C5325A",
+        "Root",
+        "SteeringWheel"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7F1E8F23-F61F-4C51-A793-AB45B7C5325A",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "65F6F990-A780-4474-B78B-572E0E4E273D" : {
+    "objectMetadataList" : [
+      [
+        "65F6F990-A780-4474-B78B-572E0E4E273D",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "66168B71-AB05-424E-8B6C-D33D6E61B08F" : {
+    "objectMetadataList" : [
+      [
+        "66168B71-AB05-424E-8B6C-D33D6E61B08F",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "0504218D-76AC-4F9B-9175-824B82443103" : {
+    "objectMetadataList" : [
+      [
+        "0504218D-76AC-4F9B-9175-824B82443103",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "A69C4C4F-6C71-4E43-B341-88E1932B117C" : {
+    "objectMetadataList" : [
+      [
+        "A69C4C4F-6C71-4E43-B341-88E1932B117C",
+        "Root",
+        "RaceGroup"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "A69C4C4F-6C71-4E43-B341-88E1932B117C",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "A69C4C4F-6C71-4E43-B341-88E1932B117C",
+        "Root",
+        "Wall2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "A69C4C4F-6C71-4E43-B341-88E1932B117C",
+        "Root",
+        "Wall1"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "A69C4C4F-6C71-4E43-B341-88E1932B117C",
+        "Root",
+        "Car"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "A69C4C4F-6C71-4E43-B341-88E1932B117C",
+        "Root",
+        "Wall3"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "AF09ED6F-1707-48FD-8720-65B998362C09" : {
+    "objectMetadataList" : [
+      [
+        "AF09ED6F-1707-48FD-8720-65B998362C09",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AF09ED6F-1707-48FD-8720-65B998362C09",
+        "Root",
+        "Sphere_Left"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AF09ED6F-1707-48FD-8720-65B998362C09",
+        "Root",
+        "GridMaterial"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AF09ED6F-1707-48FD-8720-65B998362C09",
+        "Root",
+        "Sphere_Right"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "B902F4F2-06C2-4339-B6BD-82FB51A5EDA1" : {
+    "objectMetadataList" : [
+      [
+        "B902F4F2-06C2-4339-B6BD-82FB51A5EDA1",
+        "root",
+        "C095"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B902F4F2-06C2-4339-B6BD-82FB51A5EDA1",
+        "root",
+        "CarCollisionDetectTail"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B902F4F2-06C2-4339-B6BD-82FB51A5EDA1",
+        "root",
+        "C095",
+        "_______425_002"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B902F4F2-06C2-4339-B6BD-82FB51A5EDA1",
+        "root",
+        "C095",
+        "_______001_002"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B902F4F2-06C2-4339-B6BD-82FB51A5EDA1",
+        "root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B902F4F2-06C2-4339-B6BD-82FB51A5EDA1",
+        "root",
+        "CarCollisionDetectHead"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "CB766F92-EE55-4A63-9401-E7B8C009764D" : {
+    "objectMetadataList" : [
+      [
+        "CB766F92-EE55-4A63-9401-E7B8C009764D",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "CB766F92-EE55-4A63-9401-E7B8C009764D",
+        "Root",
+        "GridMaterial"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "D560BB77-AAF3-4BDE-B7C4-989332A4688B" : {
+    "objectMetadataList" : [
+
+    ]
+  },
+  "D66134B1-3681-4A8E-AFE5-29F257229F3B" : {
+    "objectMetadataList" : [
+      [
+        "D66134B1-3681-4A8E-AFE5-29F257229F3B",
+        "Root",
+        "GridMaterial",
+        "GridMaterial"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D66134B1-3681-4A8E-AFE5-29F257229F3B",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  }
+}

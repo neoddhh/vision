@@ -1,0 +1,28 @@
+{
+  "pathsToIds" : {
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/GridMaterial.usda" : "CB766F92-EE55-4A63-9401-E7B8C009764D",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Immersive.usda" : "65F6F990-A780-4474-B78B-572E0E4E273D",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Untitled Scene.usda" : "D560BB77-AAF3-4BDE-B7C4-989332A4688B",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Car.usda" : "7F1E8F23-F61F-4C51-A793-AB45B7C5325A",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Car.usdc" : "B902F4F2-06C2-4339-B6BD-82FB51A5EDA1",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/FalloutCar..usda" : "177E72BB-DE56-4753-9FF0-C0E0F9506817",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/FalloutCar.usda" : "1EFECFFE-446B-44E5-BD6A-4B3F10E38DAE",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/FalloutCar.usdz" : "5644EEB7-F004-442F-860A-2ABCAD76B955",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/GridMaterial.usda" : "66168B71-AB05-424E-8B6C-D33D6E61B08F",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Immersive.usda" : "AF09ED6F-1707-48FD-8720-65B998362C09",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/LightDemo.usda" : "0504218D-76AC-4F9B-9175-824B82443103",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Materials\/GridMaterial.usda" : "4BB5FB36-805A-4FBD-9619-35063AF9B0C1",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/MyCar.usda" : "7ACCC3AC-997D-41BA-8299-861B174745A3",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/MyCar.usdz" : "EC5D459B-C84B-48C6-8DE2-9C3B0AAC06C0",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/OriginalSteeringWheel.usdc" : "C55EF757-EB34-4151-99FC-94CD5E49D6A6",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/OriginalSteeringWheel.usdz" : "735F6F83-20B9-45F8-8F6C-E5CF1F3F4621",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Race.usda" : "A69C4C4F-6C71-4E43-B341-88E1932B117C",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/RaceTrack.usda" : "2A28FC8D-9931-4583-AE5A-A5F2334D674F",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "D66134B1-3681-4A8E-AFE5-29F257229F3B",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/SteeringWheel.usda" : "5A5E891A-E8C8-4BED-B1E9-04710230D226",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/SteeringWheel.usdz" : "8F14724C-EDDA-4DF0-BD10-19866B830F79",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/SteeringWheelObj.usdz" : "C65D9814-CD12-4D53-A648-AFE3EE1CF0E0",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Untitled%20Scene.usda" : "D6C5686E-A31A-4762-A469-06BDA7F2AC04"
+  }
+}

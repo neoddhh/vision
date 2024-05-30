@@ -1,0 +1,3183 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 1.0 (409.100.15)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    reorder nameChildren = ["RaceGroup", "CarGroup"]
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+    def Xform "RaceGroup" (
+        active = true
+    )
+    {
+        float3 xformOp:scale = (0.1, 0.1, 0.1)
+        float3 xformOp:translate = (0, 0, -2.5)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def "RaceTrack" (
+            customData = {
+                float3 rotationEulerHint = (-1.5707964, 0, 0)
+            }
+            references = @RaceTrack.usdz@
+        )
+        {
+            quatf xformOp:orient = (0.70710677, -0.70710677, 0, 0)
+            float3 xformOp:scale = (1, 1, 1)
+            float3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            over "sc"
+            {
+                over "Group_14909380_239_315"
+                {
+                }
+
+                over "Group_14909380_251_790"
+                {
+                }
+
+                over "Obj3d66_14909380_1178_818"
+                {
+                }
+
+                over "Group_14909380_250_422"
+                {
+                }
+
+                over "Group_14909380_217_323"
+                {
+                }
+
+                over "Group_14909380_228_344"
+                {
+                }
+
+                over "Group_14909380_195_927"
+                {
+                }
+
+                over "Group_14909380_206_702"
+                {
+                }
+
+                over "Group_14909380_184_893"
+                {
+                }
+
+                over "Group_14909380_162_877"
+                {
+                }
+
+                over "Group_14909380_161_915"
+                {
+                }
+
+                over "Group_14909380_160_213"
+                {
+                }
+
+                over "Group_14909380_173_850"
+                {
+                }
+
+                over "Obj3d66_14909380_741_403"
+                {
+                }
+
+                over "Obj3d66_14909380_740_448"
+                {
+                }
+
+                over "Obj3d66_14909380_739_186"
+                {
+                }
+
+                over "Obj3d66_14909380_738_536"
+                {
+                }
+
+                over "Obj3d66_14909380_737_807"
+                {
+                }
+
+                over "Obj3d66_14909380_736_756"
+                {
+                }
+
+                over "Obj3d66_14909380_735_160"
+                {
+                }
+
+                over "Obj3d66_14909380_734_347"
+                {
+                }
+
+                over "Group_14909380_124_897"
+                {
+                }
+
+                over "Group_14909380_123_882"
+                {
+                }
+
+                over "Group_14909380_125_678"
+                {
+                }
+
+                over "Obj3d66_14909380_755_616"
+                {
+                }
+
+                over "Obj3d66_14909380_754_568"
+                {
+                }
+
+                over "Obj3d66_14909380_753_102"
+                {
+                }
+
+                over "Obj3d66_14909380_752_306"
+                {
+                }
+
+                over "Obj3d66_14909380_751_901"
+                {
+                }
+
+                over "Obj3d66_14909380_750_431"
+                {
+                }
+
+                over "Obj3d66_14909380_749_298"
+                {
+                }
+
+                over "Obj3d66_14909380_748_696"
+                {
+                }
+
+                over "Obj3d66_14909380_747_786"
+                {
+                }
+
+                over "Obj3d66_14909380_746_347"
+                {
+                }
+
+                over "Obj3d66_14909380_745_515"
+                {
+                }
+
+                over "Obj3d66_14909380_744_465"
+                {
+                }
+
+                over "Obj3d66_14909380_743_8"
+                {
+                }
+
+                over "Obj3d66_14909380_742_170"
+                {
+                }
+
+                over "Group_14909380_122_471"
+                {
+                }
+
+                over "Group_14909380_121_350"
+                {
+                }
+
+                over "Obj3d66_14909380_708_30"
+                {
+                }
+
+                over "Obj3d66_14909380_707_310"
+                {
+                }
+
+                over "Obj3d66_14909380_706_958"
+                {
+                }
+
+                over "Obj3d66_14909380_705_539"
+                {
+                }
+
+                over "Obj3d66_14909380_704_110"
+                {
+                }
+
+                over "Obj3d66_14909380_703_942"
+                {
+                }
+
+                over "Obj3d66_14909380_702_233"
+                {
+                }
+
+                over "Group_14909380_119_886"
+                {
+                }
+
+                over "Group_14909380_118_388"
+                {
+                }
+
+                over "Group_14909380_117_522"
+                {
+                }
+
+                over "Group_14909380_116_433"
+                {
+                }
+
+                over "Group_14909380_115_777"
+                {
+                }
+
+                over "Group_14909380_114_353"
+                {
+                }
+
+                over "Group_14909380_113_388"
+                {
+                }
+
+                over "Obj3d66_14909380_701_347"
+                {
+                }
+
+                over "Obj3d66_14909380_700_524"
+                {
+                }
+
+                over "Obj3d66_14909380_699_974"
+                {
+                }
+
+                over "Obj3d66_14909380_698_460"
+                {
+                }
+
+                over "Obj3d66_14909380_697_417"
+                {
+                }
+
+                over "Obj3d66_14909380_696_328"
+                {
+                }
+
+                over "Obj3d66_14909380_695_937"
+                {
+                }
+
+                over "Obj3d66_14909380_694_580"
+                {
+                }
+
+                over "Group_14909380_120_169"
+                {
+                }
+
+                over "Obj3d66_14909380_675_415"
+                {
+                }
+
+                over "Obj3d66_14909380_674_608"
+                {
+                }
+
+                over "Obj3d66_14909380_673_117"
+                {
+                }
+
+                over "Obj3d66_14909380_672_686"
+                {
+                }
+
+                over "Obj3d66_14909380_671_118"
+                {
+                }
+
+                over "Obj3d66_14909380_670_229"
+                {
+                }
+
+                over "Obj3d66_14909380_669_523"
+                {
+                }
+
+                over "Obj3d66_14909380_668_507"
+                {
+                }
+
+                over "Obj3d66_14909380_667_245"
+                {
+                }
+
+                over "Obj3d66_14909380_666_487"
+                {
+                }
+
+                over "Obj3d66_14909380_665_262"
+                {
+                }
+
+                over "Obj3d66_14909380_664_377"
+                {
+                }
+
+                over "Obj3d66_14909380_663_400"
+                {
+                }
+
+                over "Obj3d66_14909380_662_683"
+                {
+                }
+
+                over "Obj3d66_14909380_661_242"
+                {
+                }
+
+                over "Obj3d66_14909380_591_950"
+                {
+                }
+
+                over "Obj3d66_14909380_590_533"
+                {
+                }
+
+                over "Obj3d66_14909380_589_167"
+                {
+                }
+
+                over "Obj3d66_14909380_588_411"
+                {
+                }
+
+                over "Obj3d66_14909380_587_928"
+                {
+                }
+
+                over "Group_14909380_104_375"
+                {
+                }
+
+                over "Group_14909380_103_455"
+                {
+                }
+
+                over "Group_14909380_102_936"
+                {
+                }
+
+                over "Group_14909380_101_990"
+                {
+                }
+
+                over "Obj3d66_14909380_574_461"
+                {
+                }
+
+                over "Group_14909380_100_161"
+                {
+                }
+
+                over "Group_14909380_99_678"
+                {
+                }
+
+                over "Group_14909380_98_413"
+                {
+                }
+
+                over "Group_14909380_97_531"
+                {
+                }
+
+                over "Group_14909380_96_337"
+                {
+                }
+
+                over "Group_14909380_112_521"
+                {
+                }
+
+                over "Group_14909380_111_92"
+                {
+                }
+
+                over "Obj3d66_14909380_620_101"
+                {
+                }
+
+                over "Obj3d66_14909380_619_127"
+                {
+                }
+
+                over "Group_14909380_110_318"
+                {
+                }
+
+                over "Group_14909380_109_797"
+                {
+                }
+
+                over "Group_14909380_108_967"
+                {
+                }
+
+                over "Group_14909380_107_888"
+                {
+                }
+
+                over "Group_14909380_106_210"
+                {
+                }
+
+                over "Obj3d66_14909380_604_329"
+                {
+                }
+
+                over "Obj3d66_14909380_603_199"
+                {
+                }
+
+                over "Group_14909380_105_211"
+                {
+                }
+
+                over "Obj3d66_14909380_595_244"
+                {
+                }
+
+                over "Obj3d66_14909380_594_505"
+                {
+                }
+
+                over "Obj3d66_14909380_593_48"
+                {
+                }
+
+                over "Obj3d66_14909380_592_202"
+                {
+                }
+
+                over "Group_14909380_95_339"
+                {
+                }
+
+                over "Obj3d66_14909380_556_674"
+                {
+                }
+
+                over "Obj3d66_14909380_555_875"
+                {
+                }
+
+                over "Group_14909380_94_13"
+                {
+                }
+
+                over "Group_14909380_93_295"
+                {
+                }
+
+                over "Group_14909380_92_485"
+                {
+                }
+
+                over "Group_14909380_91_131"
+                {
+                }
+
+                over "Group_14909380_90_354"
+                {
+                }
+
+                over "Group_14909380_89_261"
+                {
+                }
+
+                over "Group_14909380_88_581"
+                {
+                }
+
+                over "Obj3d66_14909380_535_266"
+                {
+                }
+
+                over "Obj3d66_14909380_534_624"
+                {
+                }
+
+                over "Group_14909380_87_675"
+                {
+                }
+
+                over "Group_14909380_86_830"
+                {
+                }
+
+                over "Group_14909380_76_491"
+                {
+                }
+
+                over "Group_14909380_75_822"
+                {
+                }
+
+                over "Group_14909380_74_480"
+                {
+                }
+
+                over "Group_14909380_73_469"
+                {
+                }
+
+                over "Group_14909380_72_623"
+                {
+                }
+
+                over "Group_14909380_71_166"
+                {
+                }
+
+                over "Group_14909380_70_879"
+                {
+                }
+
+                over "Obj3d66_14909380_475_788"
+                {
+                }
+
+                over "Group_14909380_85_825"
+                {
+                }
+
+                over "Group_14909380_84_829"
+                {
+                }
+
+                over "Obj3d66_14909380_522_167"
+                {
+                }
+
+                over "Group_14909380_83_313"
+                {
+                }
+
+                over "Group_14909380_82_777"
+                {
+                }
+
+                over "Obj3d66_14909380_515_30"
+                {
+                }
+
+                over "Group_14909380_81_681"
+                {
+                }
+
+                over "Group_14909380_80_148"
+                {
+                }
+
+                over "Group_14909380_79_965"
+                {
+                }
+
+                over "Group_14909380_78_704"
+                {
+                }
+
+                over "Obj3d66_14909380_503_105"
+                {
+                }
+
+                over "Obj3d66_14909380_502_245"
+                {
+                }
+
+                over "Obj3d66_14909380_501_606"
+                {
+                }
+
+                over "Obj3d66_14909380_500_684"
+                {
+                }
+
+                over "Obj3d66_14909380_499_603"
+                {
+                }
+
+                over "Obj3d66_14909380_498_809"
+                {
+                }
+
+                over "Group_14909380_77_720"
+                {
+                }
+
+                over "Group_14909380_69_112"
+                {
+                }
+
+                over "Group_14909380_68_543"
+                {
+                }
+
+                over "Group_14909380_67_95"
+                {
+                }
+
+                over "Obj3d66_14909380_356_433"
+                {
+                }
+
+                over "Obj3d66_14909380_355_799"
+                {
+                }
+
+                over "Obj3d66_14909380_354_367"
+                {
+                }
+
+                over "Obj3d66_14909380_353_283"
+                {
+                }
+
+                over "Obj3d66_14909380_352_577"
+                {
+                }
+
+                over "Group_14909380_66_405"
+                {
+                }
+
+                over "Group_14909380_62_792"
+                {
+                }
+
+                over "Obj3d66_14909380_291_943"
+                {
+                }
+
+                over "Obj3d66_14909380_290_241"
+                {
+                }
+
+                over "Obj3d66_14909380_289_999"
+                {
+                }
+
+                over "Obj3d66_14909380_288_748"
+                {
+                }
+
+                over "Obj3d66_14909380_287_981"
+                {
+                }
+
+                over "Obj3d66_14909380_286_90"
+                {
+                }
+
+                over "Obj3d66_14909380_285_342"
+                {
+                }
+
+                over "Obj3d66_14909380_284_322"
+                {
+                }
+
+                over "Obj3d66_14909380_283_582"
+                {
+                }
+
+                over "Obj3d66_14909380_282_205"
+                {
+                }
+
+                over "Obj3d66_14909380_281_550"
+                {
+                }
+
+                over "Obj3d66_14909380_280_291"
+                {
+                }
+
+                over "Obj3d66_14909380_279_154"
+                {
+                }
+
+                over "Group_14909380_61_978"
+                {
+                }
+
+                over "Group_14909380_60_564"
+                {
+                }
+
+                over "Obj3d66_14909380_272_704"
+                {
+                }
+
+                over "Group_14909380_59_608"
+                {
+                }
+
+                over "Group_14909380_58_88"
+                {
+                }
+
+                over "Group_14909380_57_193"
+                {
+                }
+
+                over "Group_14909380_65_612"
+                {
+                }
+
+                over "Group_14909380_64_184"
+                {
+                }
+
+                over "Obj3d66_14909380_317_1000"
+                {
+                }
+
+                over "Obj3d66_14909380_316_289"
+                {
+                }
+
+                over "Obj3d66_14909380_315_854"
+                {
+                }
+
+                over "Obj3d66_14909380_314_249"
+                {
+                }
+
+                over "Obj3d66_14909380_313_708"
+                {
+                }
+
+                over "Obj3d66_14909380_312_870"
+                {
+                }
+
+                over "Obj3d66_14909380_311_767"
+                {
+                }
+
+                over "Obj3d66_14909380_310_141"
+                {
+                }
+
+                over "Obj3d66_14909380_309_665"
+                {
+                }
+
+                over "Obj3d66_14909380_308_297"
+                {
+                }
+
+                over "Obj3d66_14909380_307_240"
+                {
+                }
+
+                over "Group_14909380_63_434"
+                {
+                }
+
+                over "Obj3d66_14909380_302_375"
+                {
+                }
+
+                over "Obj3d66_14909380_301_531"
+                {
+                }
+
+                over "Obj3d66_14909380_300_101"
+                {
+                }
+
+                over "Obj3d66_14909380_299_565"
+                {
+                }
+
+                over "Group_14909380_50_498"
+                {
+                }
+
+                over "Group_14909380_49_49"
+                {
+                }
+
+                over "Group_14909380_48_180"
+                {
+                }
+
+                over "Obj3d66_14909380_190_360"
+                {
+                }
+
+                over "Group_14909380_47_488"
+                {
+                }
+
+                over "Group_14909380_46_822"
+                {
+                }
+
+                over "Group_14909380_45_456"
+                {
+                }
+
+                over "Group_14909380_44_445"
+                {
+                }
+
+                over "Obj3d66_14909380_178_504"
+                {
+                }
+
+                over "Group_14909380_43_695"
+                {
+                }
+
+                over "Group_14909380_42_235"
+                {
+                }
+
+                over "Group_14909380_41_306"
+                {
+                }
+
+                over "Group_14909380_40_649"
+                {
+                }
+
+                over "Group_14909380_56_30"
+                {
+                }
+
+                over "Group_14909380_55_765"
+                {
+                }
+
+                over "Group_14909380_54_727"
+                {
+                }
+
+                over "Group_14909380_53_858"
+                {
+                }
+
+                over "Group_14909380_52_760"
+                {
+                }
+
+                over "Obj3d66_14909380_202_573"
+                {
+                }
+
+                over "Group_14909380_51_935"
+                {
+                }
+
+                over "Group_14909380_39_652"
+                {
+                }
+
+                over "Group_14909380_38_477"
+                {
+                }
+
+                over "Group_14909380_37_113"
+                {
+                }
+
+                over "Group_14909380_36_911"
+                {
+                }
+
+                over "Group_14909380_35_366"
+                {
+                }
+
+                over "Group_14909380_34_120"
+                {
+                }
+
+                over "Group_14909380_33_791"
+                {
+                }
+
+                over "Group_14909380_32_1"
+                {
+                }
+
+                over "Obj3d66_14909380_144_653"
+                {
+                }
+
+                over "Obj3d66_14909380_143_287"
+                {
+                }
+
+                over "Obj3d66_14909380_142_257"
+                {
+                }
+
+                over "Group_14909380_31_274"
+                {
+                }
+
+                over "Group_14909380_30_111"
+                {
+                }
+
+                over "Group_14909380_19_672"
+                {
+                }
+
+                over "Group_14909380_18_829"
+                {
+                }
+
+                over "Group_14909380_17_841"
+                {
+                }
+
+                over "Group_14909380_16_270"
+                {
+                }
+
+                over "Obj3d66_14909380_93_141"
+                {
+                }
+
+                over "Group_14909380_15_469"
+                {
+                }
+
+                over "Group_14909380_14_373"
+                {
+                }
+
+                over "Group_14909380_13_789"
+                {
+                }
+
+                over "Group_14909380_12_152"
+                {
+                }
+
+                over "Obj3d66_14909380_81_98"
+                {
+                }
+
+                over "Obj3d66_14909380_80_613"
+                {
+                }
+
+                over "Obj3d66_14909380_79_251"
+                {
+                }
+
+                over "Group_14909380_11_156"
+                {
+                }
+
+                over "Group_14909380_29_151"
+                {
+                }
+
+                over "Group_14909380_28_661"
+                {
+                }
+
+                over "Group_14909380_27_977"
+                {
+                }
+
+                over "Group_14909380_26_151"
+                {
+                }
+
+                over "Group_14909380_25_317"
+                {
+                }
+
+                over "Group_14909380_24_272"
+                {
+                }
+
+                over "Group_14909380_23_473"
+                {
+                }
+
+                over "Group_14909380_22_317"
+                {
+                }
+
+                over "Group_14909380_21_99"
+                {
+                }
+
+                over "Group_14909380_20_27"
+                {
+                }
+
+                over "Obj3d66_14909380_108_270"
+                {
+                }
+
+                over "Obj3d66_14909380_107_291"
+                {
+                }
+
+                over "Obj3d66_14909380_106_841"
+                {
+                }
+
+                over "Obj3d66_14909380_105_846"
+                {
+                }
+
+                over "Group_14909380_10_873"
+                {
+                }
+
+                over "Obj3d66_14909380_64_86"
+                {
+                }
+
+                over "Group_14909380_9_501"
+                {
+                }
+
+                over "Group_14909380_8_257"
+                {
+                }
+
+                over "Group_14909380_7_466"
+                {
+                }
+
+                over "Obj3d66_14909380_51_369"
+                {
+                }
+
+                over "Obj3d66_14909380_50_683"
+                {
+                }
+
+                over "Obj3d66_14909380_49_441"
+                {
+                }
+
+                over "Obj3d66_14909380_48_589"
+                {
+                }
+
+                over "Obj3d66_14909380_47_503"
+                {
+                }
+
+                over "Obj3d66_14909380_46_841"
+                {
+                }
+
+                over "Obj3d66_14909380_45_543"
+                {
+                }
+
+                over "Group_14909380_6_142"
+                {
+                }
+
+                over "Group_14909380_5_331"
+                {
+                }
+
+                over "Obj3d66_14909380_42_175"
+                {
+                }
+
+                over "Obj3d66_14909380_41_643"
+                {
+                }
+
+                over "Obj3d66_14909380_40_125"
+                {
+                }
+
+                over "Obj3d66_14909380_39_301"
+                {
+                }
+
+                over "Obj3d66_14909380_38_243"
+                {
+                }
+
+                over "Obj3d66_14909380_37_42"
+                {
+                }
+
+                over "Obj3d66_14909380_36_829"
+                {
+                }
+
+                over "Obj3d66_14909380_35_564"
+                {
+                }
+
+                over "Obj3d66_14909380_34_605"
+                {
+                }
+
+                over "Obj3d66_14909380_33_105"
+                {
+                }
+
+                over "Obj3d66_14909380_32_928"
+                {
+                }
+
+                over "Obj3d66_14909380_31_468"
+                {
+                }
+
+                over "Obj3d66_14909380_30_471"
+                {
+                }
+
+                over "Obj3d66_14909380_29_292"
+                {
+                }
+
+                over "Obj3d66_14909380_28_241"
+                {
+                }
+
+                over "Obj3d66_14909380_27_959"
+                {
+                }
+
+                over "Obj3d66_14909380_26_4"
+                {
+                }
+
+                over "Obj3d66_14909380_25_272"
+                {
+                }
+
+                over "Obj3d66_14909380_24_722"
+                {
+                }
+
+                over "Obj3d66_14909380_23_438"
+                {
+                }
+
+                over "Obj3d66_14909380_22_329"
+                {
+                }
+
+                over "Obj3d66_14909380_21_306"
+                {
+                }
+
+                over "Obj3d66_14909380_20_995"
+                {
+                }
+
+                over "Obj3d66_14909380_19_610"
+                {
+                }
+
+                over "Obj3d66_14909380_18_782"
+                {
+                }
+
+                over "Obj3d66_14909380_17_534"
+                {
+                }
+
+                over "Obj3d66_14909380_16_192"
+                {
+                }
+
+                over "Obj3d66_14909380_15_630"
+                {
+                }
+
+                over "Group_14909380_4_362"
+                {
+                }
+
+                over "Obj3d66_14909380_11_460"
+                {
+                }
+
+                over "Group_14909380_3_8"
+                {
+                }
+
+                over "Group_14909380_2_295"
+                {
+                }
+
+                over "Group_14909380_1_526"
+                {
+                }
+
+                over "Obj3d66_14909380_2_106"
+                {
+                }
+
+                over "Obj3d66_14909380_1_63"
+                {
+                }
+
+                over "shapes3d66_14909380_1_632"
+                {
+                }
+            }
+        }
+
+        def Xform "Fence"
+        {
+            reorder nameChildren = ["Cube", "Cube_1", "Cube_2", "Cube_3", "Cube_4", "Cube_5", "Cube_6", "Cube_7", "Cube_8", "Cube_9", "Cube_10", "Cube_13", "Cube_14", "Cube_15", "Cube_16", "Cube_17", "Cube_18", "Cube_19", "Cube_20", "Cube_21", "Cube_22", "Cube_23", "Cube_24", "Cube_25", "Cube_11", "Cube_12", "Cube_26", "Cube_27", "Cube_28", "Cube_29", "Cube_30", "Cube_31", "Cube_32", "Cube_33", "Cube_34", "Cube_35", "Cube_36", "Cube_37", "Cube_38", "Cube_39", "Cube_40", "Cylinder", "Cylinder_1", "Cylinder_2", "Cylinder_3", "Cylinder_4", "Cylinder_5", "Cylinder_6", "Cylinder_7", "Cylinder_8", "Cylinder_9"]
+            def Cube "Cube" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 0.12527964, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.99803877, 0, 0.06259885, 0)
+                float3 xformOp:scale = (0.99999994, 1, 115.000015)
+                float3 xformOp:translate = (24.93274, 0.09999984, -1.6254354)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_1" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 0.47685072, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.97171104, 0, 0.23617296, 0)
+                float3 xformOp:scale = (0.9999998, 1, 14.999998)
+                float3 xformOp:translate = (22.80302, 0.09999942, -14.403258)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_2" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 0.8317915, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.9147548, 0, 0.40400946, 0)
+                float3 xformOp:scale = (0.9999998, 1, 13)
+                float3 xformOp:translate = (21.00027, 0.09999942, -16.563019)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_3" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 1.3069036, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.7939901, 0, 0.6079307, 0)
+                float3 xformOp:scale = (0.9999998, 1, 13)
+                float3 xformOp:translate = (18.643368, 0.09999943, -17.776619)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_4" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 1.5707963, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.6864095, 0, 0.7272153, 0)
+                float3 xformOp:scale = (0.99999994, 1, 13.000002)
+                float3 xformOp:translate = (16.007275, 0.09999943, -18.022387)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_5" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 1.9447162, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.56335276, 0, 0.82621646, 0)
+                float3 xformOp:scale = (0.9999998, 1, 13.000001)
+                float3 xformOp:translate = (13.457746, 0.09999943, -17.294863)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_6" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 2.345313, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.38770434, 0, 0.9217838, 0)
+                float3 xformOp:scale = (0.99999976, 0.99999994, 13.000001)
+                float3 xformOp:translate = (11.400299, 0.099998474, -15.797539)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_7" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 2.7096312, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.21430546, 0, 0.9767667, 0)
+                float3 xformOp:scale = (0.9999998, 1, 14.000002)
+                float3 xformOp:translate = (9.84561, 0.10000229, -13.556563)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_8" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 0.07481467, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.99930036, 0, 0.037400387, 0)
+                float3 xformOp:scale = (0.9999998, 1, 49.999992)
+                float3 xformOp:translate = (9.665432, 0.09999689, -7.277574)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_9" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, -0.3034926, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.9885086, 0, -0.15116474, 0)
+                float3 xformOp:scale = (0.9999998, 1, 49.999985)
+                float3 xformOp:translate = (2.8814852, 0.09999656, -5.8466916)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_10" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, -1.5707963, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.72466993, 0, -0.68909615, 0)
+                float3 xformOp:scale = (0.9999998, 1, 25)
+                float3 xformOp:translate = (5.1497307, 0.09999656, 0.70133996)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_13" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 0.029054696, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.9998945, 0, 0.014525472, 0)
+                float3 xformOp:scale = (0.9999997, 1, 18)
+                float3 xformOp:translate = (4.279208, 0.09999657, -12.439527)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_14" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 0.6718107, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.9441123, 0, 0.32962397, 0)
+                float3 xformOp:scale = (0.9999997, 1, 18)
+                float3 xformOp:translate = (2.8507743, 0.09999657, -15.457121)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_15" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 1.0962845, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.85349405, 0, 0.52110255, 0)
+                float3 xformOp:scale = (0.9999996, 0.9999999, 14.999998)
+                float3 xformOp:translate = (0.190354, 0.09999657, -17.463245)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_16" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 1.5707963, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.7098892, 0, 0.70431334, 0)
+                float3 xformOp:scale = (0.99999934, 0.99999976, 34.999992)
+                float3 xformOp:translate = (-4.7251086, 0.09999849, -17.927073)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_17" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 2.1260452, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.48623297, 0, 0.8738292, 0)
+                float3 xformOp:scale = (0.9999992, 0.99999964, 65)
+                float3 xformOp:translate = (-13.768132, 0.10000041, -14.422638)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_18" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 3.1494393, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (-0.003923573, 0, 0.9999923, 0)
+                float3 xformOp:scale = (0.9999992, 0.99999964, 45)
+                float3 xformOp:translate = (-19.3349, 0.10000041, -6.3145413)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cylinder "Cylinder" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                uniform token axis = "Y"
+                double height = 0.05
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double radius = 0.1
+                quatf xformOp:orient = (1, 0, 0, 0)
+                float3 xformOp:scale = (20, 20, 20)
+                float3 xformOp:translate = (-21.218111, 0, -0.9835508)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        float radius = 0.1
+                        token shapeType = "Sphere"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_19" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 2.1930285, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.45669976, 0, 0.8896209, 0)
+                float3 xformOp:scale = (0.99999917, 0.99999964, 20)
+                float3 xformOp:translate = (-22.714535, 0.10000041, 2.3649764)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_20" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 3.1323714, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.00461049, 0, 0.9999894, 0)
+                float3 xformOp:scale = (0.99999917, 0.99999964, 25.000002)
+                float3 xformOp:translate = (-24.519434, 0.100000426, 6.2416687)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_21" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 4.0638633, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (-0.4449651, 0, 0.89554787, 0)
+                float3 xformOp:scale = (0.99999917, 0.9999996, 24.999998)
+                float3 xformOp:translate = (-22.459396, 0.10000423, 10.265483)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cylinder "Cylinder_1" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 0, 0)
+                }
+            )
+            {
+                uniform token axis = "Y"
+                double height = 0.05
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double radius = 0.1
+                quatf xformOp:orient = (1, 0, 0, 0)
+                float3 xformOp:scale = (40, 40, 40)
+                float3 xformOp:translate = (-18.641619, 1.4901164e-7, 15.376309)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        float radius = 0.1
+                        token shapeType = "Sphere"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cylinder "Cylinder_2" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 0, 0)
+                }
+            )
+            {
+                uniform token axis = "Y"
+                double height = 0.05
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double radius = 0.1
+                quatf xformOp:orient = (1, 0, 0, 0)
+                float3 xformOp:scale = (200, 200, 200)
+                float3 xformOp:translate = (9.475356, 0, 33.03635)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.01, 0.2)
+                        float height = 0.01
+                        float radius = 0.1
+                        token shapeType = "Sphere"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_22" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, -0.5644198, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.9604423, 0, -0.2784789, 0)
+                float3 xformOp:scale = (0.9999998, 1, 32)
+                float3 xformOp:translate = (24.86386, 0.09999657, 12.697947)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_23" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, -1.5707963, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.7289678, 0, -0.68454796, 0)
+                float3 xformOp:scale = (0.9999997, 0.9999999, 22.999998)
+                float3 xformOp:translate = (20.867332, 0.09999657, 15.44459)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cylinder "Cylinder_3" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                uniform token axis = "Y"
+                double height = 0.05
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double radius = 0.1
+                quatf xformOp:orient = (1, 0, 0, 0)
+                float3 xformOp:scale = (22, 22, 22)
+                float3 xformOp:translate = (7.808708, 0, -1.7453463)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        float radius = 0.1
+                        token shapeType = "Sphere"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cylinder "Cylinder_4" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                uniform token axis = "Y"
+                double height = 0.05
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double radius = 0.1
+                quatf xformOp:orient = (1, 0, 0, 0)
+                float3 xformOp:scale = (40, 40, 40)
+                float3 xformOp:translate = (-5.917014, 0, 8.10782)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        float radius = 0.1
+                        token shapeType = "Sphere"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_24" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 4.7123885, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.7096339, 0, -0.70457065, 0)
+                float3 xformOp:scale = (0.9999993, 0.9999998, 35)
+                float3 xformOp:translate = (-7.243617, 0.100004226, 17.400373)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_25" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 4.0638633, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (-0.4449651, 0, 0.8955479, 0)
+                float3 xformOp:scale = (0.99999917, 0.9999996, 24.999998)
+                float3 xformOp:translate = (-12.684851, 0.100004196, 15.893472)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_11" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 0.13540769, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.997709, 0, 0.067652136, 0)
+                float3 xformOp:scale = (0.99999994, 1, 90)
+                float3 xformOp:translate = (19.752117, 0.10000038, -1.5904505)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cylinder "Cylinder_5" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                uniform token axis = "Y"
+                double height = 0.05
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double radius = 0.1
+                quatf xformOp:orient = (1, 0, 0, 0)
+                float3 xformOp:scale = (22, 22, 22)
+                float3 xformOp:translate = (16.685585, 0, -9.852317)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        float radius = 0.1
+                        token shapeType = "Sphere"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cylinder "Cylinder_6" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                uniform token axis = "Y"
+                double height = 0.05
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double radius = 0.1
+                quatf xformOp:orient = (1, 0, 0, 0)
+                float3 xformOp:scale = (22, 22, 22)
+                float3 xformOp:translate = (19.036514, 0, 7.413869)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        float radius = 0.1
+                        token shapeType = "Sphere"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_12" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, 0.044326983, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.9997544, 0, 0.022161677, 0)
+                float3 xformOp:scale = (0.99999994, 1, 50)
+                float3 xformOp:translate = (14.850711, 0.100004196, -4.433853)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_26" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, -0.51937187, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.96647066, 0, -0.25677702, 0)
+                float3 xformOp:scale = (0.9999997, 0.99999976, 25)
+                float3 xformOp:translate = (13.845889, 0.100004226, 2.5309296)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_27" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, -1.3090605, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.79333407, 0, -0.6087866, 0)
+                float3 xformOp:scale = (0.9999997, 0.99999976, 24.999998)
+                float3 xformOp:translate = (10.272327, 0.100004226, 5.259106)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_28" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, -1.5707963, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.7018882, 0, -0.71228707, 0)
+                float3 xformOp:scale = (0.9999997, 0.99999976, 35)
+                float3 xformOp:translate = (4.3960824, 0.100008026, 5.8673086)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_29" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, -1.8749611, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.5918209, 0, -0.8060695, 0)
+                float3 xformOp:scale = (0.9999997, 0.99999976, 20)
+                float3 xformOp:translate = (-1.0963663, 0.100008056, 5.202491)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_30" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, -2.7180421, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (-0.21019572, 0, 0.9776593, 0)
+                float3 xformOp:scale = (0.9999995, 0.9999996, 23)
+                float3 xformOp:translate = (-4.039066, 0.10000802, 2.6864548)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_31" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, -3.1809485, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.019676432, 0, 0.99980634, 0)
+                float3 xformOp:scale = (0.99999946, 0.9999995, 25)
+                float3 xformOp:translate = (-13.928373, 0.10000805, -1.7869593)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cylinder "Cylinder_7" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                uniform token axis = "Y"
+                double height = 0.05
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double radius = 0.1
+                quatf xformOp:orient = (1, 0, 0, 0)
+                float3 xformOp:scale = (22, 22, 22)
+                float3 xformOp:translate = (3.1593714, 0, -1.0709292)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        float radius = 0.1
+                        token shapeType = "Sphere"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_32" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, -4.187992, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.4996542, 0, 0.86622494, 0)
+                float3 xformOp:scale = (0.99999934, 0.9999995, 40)
+                float3 xformOp:translate = (-9.089787, 0.10000992, -10.974339)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cylinder "Cylinder_8" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                uniform token axis = "Y"
+                double height = 0
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double radius = 0.1
+                quatf xformOp:orient = (1, 0, 0, 0)
+                float3 xformOp:scale = (28, 28, 28)
+                float3 xformOp:translate = (-4.486557, 0, -10.18319)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        float radius = 0.1
+                        token shapeType = "Sphere"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_33" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, -3.4528673, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.15500963, 0, 0.98791295, 0)
+                float3 xformOp:scale = (0.99999934, 0.9999995, 49.999992)
+                float3 xformOp:translate = (-3.290316, 0.10000805, -4.2610226)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_34" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, -3.8646927, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.35372436, 0, 0.9353497, 0)
+                float3 xformOp:scale = (0.99999946, 0.9999995, 32)
+                float3 xformOp:translate = (-16.173328, 0.10001378, 3.1712067)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_35" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, -5.039869, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.8129139, 0, 0.5823839, 0)
+                float3 xformOp:scale = (0.99999934, 0.9999995, 31.999996)
+                float3 xformOp:translate = (-15.314952, 0.100015685, 6.731293)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_36" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, -5.039869, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.8129138, 0, 0.58238393, 0)
+                float3 xformOp:scale = (0.99999934, 0.99999946, 31.999994)
+                float3 xformOp:translate = (-15.314952, 0.100015685, 6.731293)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_37" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, -5.4952955, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.9234021, 0, 0.38383391, 0)
+                float3 xformOp:scale = (0.99999934, 0.99999946, 20)
+                float3 xformOp:translate = (-11.020489, 0.10001379, 9.129161)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cylinder "Cylinder_9" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                uniform token axis = "Y"
+                double height = 0.05
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double radius = 0.1
+                quatf xformOp:orient = (1, 0, 0, 0)
+                float3 xformOp:scale = (28, 28, 28)
+                float3 xformOp:translate = (-11.514399, 0, -6.250166)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        float radius = 0.1
+                        token shapeType = "Sphere"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_38" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, -1.2674209, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.80583596, 0, -0.5921388, 0)
+                float3 xformOp:scale = (0.9999997, 0.99999976, 40)
+                float3 xformOp:translate = (1.7089366, 0.10000804, 9.182666)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_39" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, -1.4853972, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.7366463, 0, -0.67627823, 0)
+                float3 xformOp:scale = (0.9999997, 0.99999976, 24.999998)
+                float3 xformOp:translate = (8.10852, 0.10000421, 7.8265095)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+
+            def Cube "Cube_40" (
+                active = true
+                prepend apiSchemas = ["MaterialBindingAPI"]
+                customData = {
+                    float3 rotationEulerHint = (0, -1.7783787, 0)
+                }
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+                double size = 0.2
+                quatf xformOp:orient = (0.630042, 0, -0.7765611, 0)
+                float3 xformOp:scale = (0.9999997, 0.99999976, 33)
+                float3 xformOp:translate = (13.923594, 0.10000612, 8.3441105)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (0.2, 0.2, 0.2)
+                        token shapeType = "Box"
+
+                        def RealityKitStruct "pose"
+                        {
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    def "Car" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (0, 0, 0)
+        }
+        references = @Car.usdc@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (0.05, 0.05, 0.05)
+        float3 xformOp:translate = (2.2012353, 3.837049e-7, -1.2937279)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "C095"
+        {
+            over "_______035_002"
+            {
+                over "_______035_002"
+                {
+                    float3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                }
+            }
+        }
+
+        def RealityKitComponent "SpatialAudio"
+        {
+            uniform token info:id = "RealityKit.SpatialAudio"
+        }
+
+        over "CarCollisionDetectHead"
+        {
+            def RealityKitComponent "Collider"
+            {
+                uint group = 1
+                uniform token info:id = "RealityKit.Collider"
+                uint mask = 4294967295
+                token type = "Default"
+
+                def RealityKitStruct "Shape"
+                {
+                    float3 extent = (2, 2, 2)
+                    float radius = 1
+                    token shapeType = "Sphere"
+
+                    def RealityKitStruct "pose"
+                    {
+                    }
+                }
+            }
+        }
+
+        over "CarCollisionDetectTail"
+        {
+            def RealityKitComponent "Collider"
+            {
+                uint group = 1
+                uniform token info:id = "RealityKit.Collider"
+                uint mask = 4294967295
+                token type = "Default"
+
+                def RealityKitStruct "Shape"
+                {
+                    float3 extent = (2, 2, 2)
+                    float radius = 1
+                    token shapeType = "Sphere"
+
+                    def RealityKitStruct "pose"
+                    {
+                    }
+                }
+            }
+        }
+    }
+}
+
